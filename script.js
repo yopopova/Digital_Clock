@@ -21,3 +21,15 @@ function formatTime(date) {
     document.querySelector('.sec-num').innerText = sec;
     document.querySelector('.am-pm').innerText = partOfTheDay;
 }
+
+function formatDate(date) {
+    let weekDay = date.getDay();
+    let day = date.getDate();
+    let month = date.getMonth();
+    let year = date.getFullYear();
+
+    const week = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+    const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+
+    document.querySelector('.date span').innerText = `${week[weekDay]}, ${months[month]} ${day}, ${year}`;
+}
