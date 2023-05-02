@@ -1,0 +1,12 @@
+@import url(main-style.css);
+@import url(dark-style.css);
+
+section {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(#6DD5FA, #2980B9);
+    padding: 0 20px;
+}
