@@ -17,3 +17,17 @@ section {
     align-items: center;
     gap: 100px;
 }
+
+.container .icons i {
+    position: absolute;
+    top: 17px;
+    right: 17px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    background-color: #24292d;
+    color: #ffffff;
+    cursor: pointer;
+}
