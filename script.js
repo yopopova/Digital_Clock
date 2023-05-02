@@ -33,3 +33,10 @@ function formatDate(date) {
 
     document.querySelector('.date span').innerText = `${week[weekDay]}, ${months[month]} ${day}, ${year}`;
 }
+
+setInterval(() => {
+    let date = new Date();
+
+    formatTime(date);
+    formatDate(date);
+}, 200);
