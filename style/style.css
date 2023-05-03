@@ -63,3 +63,15 @@ section {
     font-size: 20px;
     letter-spacing: 1px;
 }
+
+.time .time-colon .time-text {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #f0f8ff;
+    border-radius: 6px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
