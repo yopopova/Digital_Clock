@@ -55,3 +55,11 @@ section {
     align-items: center;
     position: relative;
 }
+
+.time .time-colon .am-pm {
+    position: absolute;
+    top: 0;
+    right: -50px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
