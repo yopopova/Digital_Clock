@@ -49,3 +49,9 @@ section {
     display: flex;
     align-items: center;
 }
+
+.time .time-colon {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
