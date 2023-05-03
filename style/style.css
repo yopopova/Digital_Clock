@@ -31,3 +31,8 @@ section {
     color: #ffffff;
     cursor: pointer;
 }
+
+.container .icons i.fa-sun {
+    opacity: 0;
+    pointer-events: none;
+}
