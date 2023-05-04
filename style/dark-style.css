@@ -1,3 +1,8 @@
 section.dark {
     background: linear-gradient(#302b63, #0f0c29);
 }
+
+section.dark .container .icons i {
+    background: #ffffff;
+    color: #323840;
+}
