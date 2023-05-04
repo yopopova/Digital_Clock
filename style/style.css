@@ -85,3 +85,8 @@ section {
     font-size: 40px;
     margin: 0 10px;
 }
+
+.time .time-colon .time-text .text {
+    font-size: 12px;
+    text-transform: uppercase;
+}
