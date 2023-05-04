@@ -80,3 +80,8 @@ section {
 .time .time-colon .colon {
     font-size: 35px;
 }
+
+.time .time-colon .colon {
+    font-size: 40px;
+    margin: 0 10px;
+}
