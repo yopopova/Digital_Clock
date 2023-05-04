@@ -90,3 +90,8 @@ section {
     font-size: 12px;
     text-transform: uppercase;
 }
+
+.container .date {
+    margin-top: -70px;
+    letter-spacing: 0.5px;
+}
