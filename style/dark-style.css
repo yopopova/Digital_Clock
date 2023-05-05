@@ -20,3 +20,10 @@ section.dark .container .sun-moon {
 section.dark .time .time-colon .time-text {
     background: #24292d;
 }
+
+section.dark .time .time-colon .text,
+section.dark .time .time-colon .am-pm,
+section.dark .time .time-text .num,
+section.dark .time .colon {
+    color: #ffffff;
+}
