@@ -6,3 +6,8 @@ section.dark .container .icons i {
     background: #ffffff;
     color: #323840;
 }
+
+section.dark .container .icons i.fa-sun {
+    opacity: 1;
+    pointer-events: auto;
+}
