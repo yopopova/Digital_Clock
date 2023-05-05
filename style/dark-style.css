@@ -27,3 +27,7 @@ section.dark .time .time-text .num,
 section.dark .time .colon {
     color: #ffffff;
 }
+
+section.dark .container .date {
+    color: #ffffff;
+}
