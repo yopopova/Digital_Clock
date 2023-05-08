@@ -1,6 +1,6 @@
 # Digital Clock
 
-The JS app 'Digital Clock' represents a simple clock that shows the current time and date. The user can also choose between light and dark themes.
+The JS app 'Digital Clock' represents a simple clock that shows the current time and date. The user can also choose between light and dark themes by clicking the moon/sun button in the upper right corner.
 
 ## App Details
 
