@@ -9,8 +9,13 @@ The app is based on:
 - JavaScript
 - HTML
 - CSS
-- Font Awesome
+- Font Awesome Icons
 - Google Fonts
+
+## Live Demo
+
+- Web app live demo: [https://digitalclock--yopopova.repl.co](https://digitalclock--yopopova.repl.co)
+- Play with the code at: [https://replit.com/@yopopova/DigitalClock?v=1](https://replit.com/@yopopova/DigitalClock?v=1)
 
 ## Light Theme
 
