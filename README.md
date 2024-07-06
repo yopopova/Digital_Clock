@@ -14,8 +14,7 @@ The app is based on:
 
 ## Live Demo
 
-- Web app live demo: [https://digitalclock/yopopova.repl.co](https://digitalclock--yopopova.repl.co)
-- Play with the code at: [https://replit.com/@yopopova/DigitalClock](https://replit.com/@yopopova/DigitalClock?v=1)
+You can [follow the link](https://yopopova.github.io/Digital_Clock/) to open the clock in your browser.
 
 ## Light Theme
 

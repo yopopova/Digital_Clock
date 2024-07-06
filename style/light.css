@@ -1,0 +1,94 @@
+section {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(#6DD5FA, #2980B9);
+    padding: 0 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+}
+
+.container .icons i {
+    position: absolute;
+    top: 17px;
+    right: 17px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    background-color: #24292d;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.container .icons i.fa-sun {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.container .sun-moon {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #ffde00;
+    box-shadow: 0 0 0 20px #ffde0080, 0 0 0 40px #ffde0040, 0 0 0 60px #ffde0020, 0 0 0 80px #ffde0010, 0 0 0 100px #ffde0000, 0 0 40px 100px #ffde0010;
+}
+
+.time {
+    display: flex;
+    align-items: center;
+}
+
+.time .time-colon {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.time .time-colon .am-pm {
+    position: absolute;
+    top: 0;
+    right: -50px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.time .time-colon .time-text {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #f0f8ff;
+    border-radius: 6px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.time .time-colon .time-text,
+.time .time-colon .colon {
+    font-size: 35px;
+}
+
+.time .time-colon .colon {
+    font-size: 40px;
+    margin: 0 10px;
+}
+
+.time .time-colon .time-text .text {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.container .date {
+    margin-top: -70px;
+    letter-spacing: 0.5px;
+}
